@@ -1,0 +1,12 @@
+CREATE DATABASE aurore_db;
+
+USE aurore_db;
+
+CREATE TABLE reservations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    reservation_date DATE,
+    guests INT
+);
